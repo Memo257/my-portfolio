@@ -1,0 +1,104 @@
+   
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url(../font-awesome/css/font-awesome.css);
+html {
+ font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 100%;
+    
+}
+body {
+   background-color:rgb(139,34,82);
+}
+footer {
+    color:white;
+     text-align: center;
+    border:groove 1em rgb(255,155,180);
+    border-radius: 2em;
+    background-color: rgb(139.34.82);
+}
+header h2 {
+    font-size: 64px; padding: 20px;
+    color:white; text-align: center;
+    border: groove 1em rgb(255,155,180);  
+    border-radius: 2em;
+    height: 150px;
+    background-color:rgb(139,34,82);
+}
+/*  for the header link*/
+a:link{
+    color:white;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color:blue;
+}
+a:active{
+    color:aqua;
+}
+
+h3{
+    color:aliceblue;
+}
+img {border: 5px inset grey ;}
+ p iframe {border: 5px inset grey ;}
+nav  { font-size: 24px;
+    
+     background-color: rgb(255,155,180);
+}
+nav ul {
+    
+    padding: 20px;
+    text-align: center;
+}
+nav ul li {
+    
+    display: inline;
+}
+nav ul li:after {
+    content: "|";
+}
+nav ul li:last-child:after{
+    content: " ";
+}
+
+}
+.col {
+    border: 1px solid #000;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+    max-width: 250px;
+    display: inline;
+
+}
+.col:hover {
+    box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.45);
+}
+.col a{
+    color: black;
+    text-decoration: none;
+}
+.col i{
+    margin-bottom: 20px;
+}
+.fa{
+    padding: :20px;
+    text-align: center;
+    margin: 5px 2px;
+    border-radius: 50%;
+    color: white;
+}
+
+/*media*/
+	
+     @media screen and (max-width : 500px) {
+nav ul li {
+    display:block;
+    }
+        
+         .col{display: block;}
+
+}	
